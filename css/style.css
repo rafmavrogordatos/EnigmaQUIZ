@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+*{
+    font-family: 'Crete Round';
+}
+.logo{
+    font-size:2em;
+    font-weight: 900;
+}
+h1{
+    font-size:128px;
+}

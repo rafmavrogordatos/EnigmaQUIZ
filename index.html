@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnigmaQuiz | How far can you get?</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="container text-center">
+    <h1>EnigmaQuiz</h1>
+    <span class="logo">?</span>
+    <div class="container-fluid">
+        <div class="form-group">
+            <label for="input1">Which is Raphael's Favourite color?</label>
+            <select class="form-control" id="input1">
+              <option value="Gold">Gold</option>
+              <option value="Bronze">Bronze</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="input1">In which city is Raphael born?</label>
+            <select class="form-control" id="input2">
+              <option value="Athens">Athens</option>
+              <option value="Barcelona">Barcelona</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="input1">Whats the best thing in the world?</label>
+            <select class="form-control" id="input3">
+              <option value="Money">Money</option>
+              <option value="Health">Health</option>
+            </select>
+          </div>
+        <br />
+        <hr/>
+        <button type="button" onclick="getInputValues();">Submit Answers</button>
+        <br />
+        <br/>
+        <br/>
+        <h3 id="result">Your Score: </h3>
+        <span id="bonus"></span>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
